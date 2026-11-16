@@ -5,11 +5,11 @@
 
 This repository implements and benchmarks unconstrained optimization algorithms using Cauchy's steepest descent direction coupled with different line search strategies across the classic Moré-Garbow-Hillstrom (MGH) test problem collection.
 
-## 📌 Project Context & Academic Disclaimer
+## 📌 Project Context
 
 This codebase originated from my Undergraduate Scientific Initiation (*Iniciação Científica*) research at the **Universidade Tecnológica Federal do Paraná (UTFPR)**, Curitiba, Brazil. 
 
-**Important Note on Scope:** While the core mathematical formulation is rooted in the original academic research, **this repository is an autonomous software refactoring and independent extension developed by the author**. It is not a strict 1:1 replica of the scripts used in the official academic presentations. Independent modifications include:
+**Important Note on Scope:** While the core mathematical formulation is rooted in the original academic research, **this repository is an autonomous software refactoring and independent extension developed**. It is not a strict 1:1 replica of the scripts used in the official academic presentations. Independent modifications include:
 - Unified modular architecture (`OTIMIZACAO.m`, `cauchy.m`, `busca_linear.m`, `mgh.m`, `banco_f.m`).
 - Strict numerical exception handling (`NaN`/`Inf` interception and global iteration ceiling enforcement across all sub-routines).
 - Automated Dolan-Moré performance profile generation directly integrated into the main benchmark pipeline.
