@@ -17,7 +17,7 @@ This codebase originated from my Undergraduate Scientific Initiation (*Iniciaç�
 
 ## 🛠️ Implemented Methods
 
-- **Descent Direction:** Cauchy's Gradient Descent ($d = -\nabla f(x)$).
+- **Descent Direction:** Cauchy's Gradient Descent ( $d = -\nabla f(x)$ ).
 - **Line Search Strategies:**
   1. **Armijo Condition** (backtracking line search).
   2. **Golden Section Method** (exact derivative-free bracketed search).
