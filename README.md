@@ -9,7 +9,7 @@ This project implements and benchmarks unconstrained optimization algorithms usi
 
 ## 🛠️ Implemented Methods
 
-- **Descent Direction:** Cauchy's Gradient Descent  $d = -\nabla f(x)$.
+- **Descent Direction:** Cauchy's Gradient Descent ( $d = -\nabla f(x)$ ).
 - **Line Search Strategies:**
   1. **Armijo Condition** (with backtracking).
   2. **Golden Section Method** (Golden-section search).
